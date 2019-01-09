@@ -44,8 +44,8 @@ def write2dict(key, value, dictionary):
 
 '''
 Input is a file path and an empty dictionary. Writes the input file to the dictionary with the
-chromosome as the key and the value as a list of lists containing the remaining portion of the line
-in list format. Returns the updated dictionary.
+chromosome as the key and the value as a list of lists containing the line in list format. 
+Returns the updated dictionary.
 
 @file	file path to text file to be written to the ditctionary
 @dictionary	dictionary to which the entry is to be written
