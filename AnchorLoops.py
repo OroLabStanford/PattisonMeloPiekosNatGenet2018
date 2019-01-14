@@ -1,7 +1,7 @@
 """
 Author:		Samantha Piekos
 Date: 		3/28/17
-Title: 		anchorLoops.py
+Title: 		AnchorLoops.py
 Version: 	python/3.3.2
 
 Filters HiChIP data for loops that contain a feature of interest in at least one of their contact bins. HiChIP_file and 
