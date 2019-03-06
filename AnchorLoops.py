@@ -14,7 +14,7 @@ python3 anchorLoops.py HiChIP_file feature_of_interest_file output_file
 
 @param 	HiChIP_file		path to text file containing HiChIP loop coordinates (chr1 start1 stop1 chr2 start2 stop2)
 						loop_count label, loop count, fdr, contact ID, and anchored element coordinates + ID (14 columns)
-@param 	feature_of_interest_file		path to bed file of second genomic element of interest
+@param 	feature_of_interest_file		path to bed file of genomic element of interest
 @param 	output_file		path to output file to write the HiChIP line and the coordinates + ID of the anchored
 						element of interest
 """
