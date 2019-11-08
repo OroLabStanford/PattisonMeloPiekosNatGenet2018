@@ -1,7 +1,7 @@
 '''
 Author:		Samantha Piekos
 Date:		6/14/2017
-Title:		Deg1LoopCheckerFinal.py
+Title:		Deg1LoopChecker.py
 Version:	python/3.3.2
 
 This program identifies two distal genomic elements that are connected to each other via chromatin looping ensuring that
@@ -10,7 +10,7 @@ contact bins) in the HiChIP input file. The second element is contained in a bed
 ID of the second element, the loop read count, fdr, & ID, and the anchored first element coordinates plus ID. Prints to
 console the number of unique second elements attached to at least one of the anchored elements.
 
-python Deg1LoopCheckerFinal.py HiChIP_file anchor_name target_file target_name output_file
+python Deg1LoopChecker.py HiChIP_file anchor_name target_file target_name output_file
 
 @param 	HiChIP_file		path to text file containing HiChIP loop coordinates (chr1 start1 stop1 chr2 start2 stop2)
 						loop_count label, loop count, fdr, contact ID, and anchored element coordinates + ID (14 columns)
