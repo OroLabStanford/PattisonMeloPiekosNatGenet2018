@@ -10,7 +10,7 @@ contact bins) in the HiChIP input file. The second element is contained in a bed
 ID of the second element, the loop read count, fdr, & ID, and the anchored first element coordinates plus ID. Prints to
 console the number of unique second elements attached to at least one of the anchored elements.
 
-python EQTLfinder.py elementFile GTExDirectory outputDirectory tag=output
+python Deg1LoopCheckerFinal.py HiChIP_file anchor_name target_file target_name output_file
 
 @param 	HiChIP_file		path to text file containing HiChIP loop coordinates (chr1 start1 stop1 chr2 start2 stop2)
 						loop_count label, loop count, fdr, contact ID, and anchored element coordinates + ID (14 columns)
