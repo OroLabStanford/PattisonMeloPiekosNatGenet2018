@@ -13,7 +13,7 @@ interest with the chr start stop ID of the corresponding feature of interest add
 python3 anchorLoops.py HiChIP_file feature_of_interest_file output_file
 
 @param 	HiChIP_file		path to text file containing HiChIP loop coordinates (chr1 start1 stop1 chr2 start2 stop2)
-						plus additional information such as loop count and fdr in the remaining columns
+				plus additional information such as loop count and fdr in the remaining columns
 @param 	feature_of_interest_file		path to bed file of genomic element of interest
 @param 	output_file		path to output file to write the HiChIP line and the coordinates + ID of the anchored
 						element of interest
