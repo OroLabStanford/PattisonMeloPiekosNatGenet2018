@@ -13,7 +13,7 @@ console the number of unique second elements attached to at least one of the anc
 python Deg1LoopChecker.py HiChIP_file anchor_name target_file target_name output_file
 
 @param 	HiChIP_file		path to text file containing HiChIP loop coordinates (chr1 start1 stop1 chr2 start2 stop2)
-						loop_count label, loop count, fdr, contact ID, and anchored element coordinates + ID (14 columns)
+				plus additional information such as loop count and fdr in the remaining columns
 @param 	anchor_name 	text label of data type of anchored element
 @param 	target_file		path to bed file of second genomic element of interest
 @param 	target_name		text label of data type of the second element
