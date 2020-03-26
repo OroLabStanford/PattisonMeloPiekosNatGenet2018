@@ -216,7 +216,7 @@ def main():
 	target_dict = unpackFile2ChrDict(target_file)
 	output_dict = deg1Analysis(HiChIP_dict, anchor_name, target_dict, target_name)  # identify contacts with target in opposite bin as the anchor
 	count = countUniqueID(output_dict)  # 
-	print('# Number of contacts in which', target_name, 'is directly looped to', anchor_name, '(i.e. 1°', anchor_name, ') =', count)
+	print('# Number of', target_name, 'is directly looped to', anchor_name, '(i.e. 1° connection to', anchor_name, ') =', count)
 	sort_output_dict = orderChrDict(output_dict)  # order the output data by genomic location in each on
 
 	outputFile(sort_output_dict, output_file)  # write contacts of interest to new output file (subset of original input file)
